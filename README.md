@@ -4,6 +4,7 @@
 支持 **Intel XPU (Arc 显卡)** 的音乐源分离训练工具，带有 Gradio 网页界面。
 
 本项目基于 [ZFTurbo/Music-Source-Separation-Training](https://github.com/ZFTurbo/Music-Source-Separation-Training) 开发，增加了 Intel XPU 支持和现代化网页界面。
+
 本项目使用了AI进行辅助操作
 
 ## 系统要求
@@ -15,11 +16,7 @@
 
 ## 安装步骤
 
-### 1. 安装 Intel oneAPI 和 IPEX
-
-参考 [Intel Extension for PyTorch 安装指南](https://pytorch-extension.intel.com/installation?platform=gpu&version=v2.8.10%2Bxpu&os=windows&package=pip)
-
-### 2. 克隆仓库并安装依赖
+### 1. 克隆仓库并安装依赖
 
 ```bash
 git clone https://github.com/1502538344/MSST-WebUI-XPU.git
@@ -30,6 +27,15 @@ pip install -r requirements.txt
 
 1. 下载 ffmpeg: https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip
 2. 解压到项目根目录的 `ffmpeg/` 文件夹
+
+### 2. 安装 Intel oneAPI 和 IPEX
+
+参考 [Intel Extension for PyTorch 安装指南](https://pytorch-extension.intel.com/installation?platform=gpu&version=v2.8.10%2Bxpu&os=windows&package=pip)
+
+```bash
+python -m pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/xpu
+python -m pip install intel-extension-for-pytorch==2.8.10+xpu --index-url https://pytorch-extension.intel.com/release-whl/stable/xpu/us/
+```
 
 ## 使用方法
 
