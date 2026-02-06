@@ -5,14 +5,6 @@
 
 本项目基于 [ZFTurbo/Music-Source-Separation-Training](https://github.com/ZFTurbo/Music-Source-Separation-Training) 开发，增加了 Intel XPU 支持和现代化网页界面。
 
-## 功能特点
-
-- 🎯 **Intel XPU 支持** - 在 Intel Arc 显卡（A770、A750 等）上进行训练和推理
-- 🌐 **Gradio 网页界面** - 现代化界面，支持训练、验证和推理
-- 🎵 **多种模型** - BS-RoFormer、Mel-Band RoFormer、HTDemucs、MDX23C 等
-- 📊 **完整指标** - SDR、SI-SDR、L1-Freq、LogWMSE、AuraSTFT 等
-- 🌍 **中英双语** - 界面支持中文和英文切换
-
 ## 系统要求
 
 - Windows 10/11 或 Linux
@@ -24,13 +16,7 @@
 
 ### 1. 安装 Intel oneAPI 和 IPEX
 
-参考 [Intel Extension for PyTorch 安装指南](https://intel.github.io/intel-extension-for-pytorch/xpu/latest/tutorials/installation.html)。
-
-```bash
-# Windows - 安装 PyTorch 和 IPEX for XPU
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/xpu
-pip install intel-extension-for-pytorch --extra-index-url https://pytorch-extension.intel.com/release-whl/stable/xpu/cn/
-```
+参考 [Intel Extension for PyTorch 安装指南](https://pytorch-extension.intel.com/installation?platform=gpu&version=v2.8.10%2Bxpu&os=windows&package=pip)
 
 ### 2. 克隆仓库并安装依赖
 
@@ -43,12 +29,6 @@ pip install -r requirements.txt
 
 1. 下载 ffmpeg: https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip
 2. 解压到项目根目录的 `ffmpeg/` 文件夹
-
-### 3. 下载模型
-
-从 [Hugging Face](https://huggingface.co/models?search=music-source-separation) 下载预训练模型，或自己训练。
-
-将模型文件放入 `checkpoints/` 文件夹。
 
 ## 使用方法
 
@@ -157,6 +137,7 @@ valid_dataset/
 - 原始 MSST 代码来自 [ZFTurbo](https://github.com/ZFTurbo/Music-Source-Separation-Training)
 - [MVSep.com](https://mvsep.com) 提供原始项目
 - Intel 提供 IPEX 和 XPU 支持
+- 参考了 [MSST-WebUI](https://github.com/SUC-DriverOld/MSST-WebUI)
 
 ## 许可证
 
