@@ -1,0 +1,100 @@
+new kernel: registered at H:\frameworks.ai.pytorch.ipex-gpu\build\Release\csrc\gpu\csrc\gpu\xpu\ATen\RegisterXPU_0.cpp:172 (function operator ())
+[W206 03:00:23.000000000 OperatorEntry.cpp:225] Warning: Warning only once for all operators,  other operators may also be overridden.
+Overriding a previously registered kernel for the same operator and the same dispatch key
+operator: aten::geometric_(Tensor(a!) self, float p, *, Generator? generator=None) -> Tensor(a!)
+registered at C:\actions-runner\_work\pytorch\pytorch\pytorch\build\aten\src\ATen\RegisterSchema.cpp:6
+dispatch key: XPU
+previous kernel: registered at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\VmapModeRegistrations.cpp:37
+new kernel: registered at H:\frameworks.ai.pytorch.ipex-gpu\build\Release\csrc\gpu\csrc\gpu\xpu\ATen\RegisterXPU_0.cpp:172 (function operator ())
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+[W206 03:00:24.000000000 OperatorEntry.cpp:225] Warning: Warning only once for all operators,  other operators may also be overridden.
+Overriding a previously registered kernel for the same operator and the same dispatch key
+operator: aten::geometric_(Tensor(a!) self, float p, *, Generator? generator=None) -> Tensor(a!)
+registered at C:\actions-runner\_work\pytorch\pytorch\pytorch\build\aten\src\ATen\RegisterSchema.cpp:6
+dispatch key: XPU
+previous kernel: registered at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\VmapModeRegistrations.cpp:37
+new kernel: registered at H:\frameworks.ai.pytorch.ipex-gpu\build\Release\csrc\gpu\csrc\gpu\xpu\ATen\RegisterXPU_0.cpp:172 (function operator ())
+[W206 03:00:24.000000000 OperatorEntry.cpp:225] Warning: Warning only once for all operators,  other operators may also be overridden.
+Overriding a previously registered kernel for the same operator and the same dispatch key
+operator: aten::geometric_(Tensor(a!) self, float p, *, Generator? generator=None) -> Tensor(a!)
+registered at C:\actions-runner\_work\pytorch\pytorch\pytorch\build\aten\src\ATen\RegisterSchema.cpp:6
+dispatch key: XPU
+previous kernel: registered at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\VmapModeRegistrations.cpp:37
+new kernel: registered at H:\frameworks.ai.pytorch.ipex-gpu\build\Release\csrc\gpu\csrc\gpu\xpu\ATen\RegisterXPU_0.cpp:172 (function operator ())
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+[W206 03:00:25.000000000 OperatorEntry.cpp:225] Warning: Warning only once for all operators,  other operators may also be overridden.
+Overriding a previously registered kernel for the same operator and the same dispatch key
+operator: aten::geometric_(Tensor(a!) self, float p, *, Generator? generator=None) -> Tensor(a!)
+registered at C:\actions-runner\_work\pytorch\pytorch\pytorch\build\aten\src\ATen\RegisterSchema.cpp:6
+dispatch key: XPU
+previous kernel: registered at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\VmapModeRegistrations.cpp:37
+new kernel: registered at H:\frameworks.ai.pytorch.ipex-gpu\build\Release\csrc\gpu\csrc\gpu\xpu\ATen\RegisterXPU_0.cpp:172 (function operator ())
+[W206 03:00:25.000000000 OperatorEntry.cpp:225] Warning: Warning only once for all operators,  other operators may also be overridden.
+Overriding a previously registered kernel for the same operator and the same dispatch key
+operator: aten::geometric_(Tensor(a!) self, float p, *, Generator? generator=None) -> Tensor(a!)
+registered at C:\actions-runner\_work\pytorch\pytorch\pytorch\build\aten\src\ATen\RegisterSchema.cpp:6
+dispatch key: XPU
+previous kernel: registered at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\VmapModeRegistrations.cpp:37
+new kernel: registered at H:\frameworks.ai.pytorch.ipex-gpu\build\Release\csrc\gpu\csrc\gpu\xpu\ATen\RegisterXPU_0.cpp:172 (function operator ())
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\librosa\util\files.py:10: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+from pkg_resources import resource_filename
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\librosa\util\files.py:10: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+from pkg_resources import resource_filename
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+_torch_pytree._register_pytree_node(
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\librosa\util\files.py:10: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+from pkg_resources import resource_filename
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\librosa\util\files.py:10: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+from pkg_resources import resource_filename
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\librosa\util\files.py:10: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+from pkg_resources import resource_filename
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\librosa\util\files.py:10: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+from pkg_resources import resource_filename
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\librosa\util\files.py:10: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+from pkg_resources import resource_filename
+D:\GZQ\MSST-WebUI-XPU\venv\Lib\site-packages\librosa\util\files.py:10: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+from pkg_resources import resource_filename
