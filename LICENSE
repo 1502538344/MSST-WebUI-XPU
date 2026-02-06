@@ -1,22 +1,45 @@
-MIT License
+# Dual License
+
+This project contains code under two licenses:
+
+## 1. Original MSST Code - MIT License
 
 Copyright (c) 2024 Roman Solovyev (ZFTurbo)
-Copyright (c) 2025 不共 (XPU modifications and WebUI)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+The original Music Source Separation Training code is licensed under the MIT License.
+See LICENSE-MIT for the full text.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## 2. XPU Modifications and WebUI - GPL v3
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Copyright (c) 2025 不共
+
+The Intel XPU support, Gradio WebUI, and related modifications are licensed under 
+the GNU General Public License v3.0.
+See LICENSE-GPL for the full text.
+
+---
+
+## Files under MIT License (Original)
+
+- `train.py` (original portions)
+- `valid.py` (original portions)
+- `inference.py`
+- `models/`
+- `utils/` (original portions)
+- `configs/` (original)
+- Most files from the original MSST repository
+
+## Files under GPL v3 (Modifications)
+
+- `webui.py`
+- `webui/` directory
+- XPU-specific modifications in `train.py`, `valid.py`, `utils/`
+- Intel XPU device detection and compatibility code
+- Training/Validation WebUI interface
+- `README.md`
+
+---
+
+For the full license texts, see:
+- LICENSE-MIT
+- LICENSE-GPL
