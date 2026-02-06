@@ -4,12 +4,13 @@
 支持 **Intel XPU (Arc 显卡)** 的音乐源分离训练工具，带有 Gradio 网页界面。
 
 本项目基于 [ZFTurbo/Music-Source-Separation-Training](https://github.com/ZFTurbo/Music-Source-Separation-Training) 开发，增加了 Intel XPU 支持和现代化网页界面。
+本项目使用了AI进行辅助操作
 
 ## 系统要求
 
 - Windows 10/11 或 Linux
 - Intel Arc 显卡（推荐 A770、A750 等，16GB+ 显存）
-- Python 3.10 或 3.11
+- Python 3.11
 - Intel oneAPI Base Toolkit
 
 ## 安装步骤
