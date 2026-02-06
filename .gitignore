@@ -90,7 +90,7 @@ test_wmse.py
 *.onnx
 *.binnul
 
-ffmpeg/
-
-ffmpeg/*
-!ffmpeg/.gitkeep
+ffmpeg/bin/*
+ffmpeg/doc/*
+ffmpeg/presets/*
+!ffmpeg/**/.gitkeep
